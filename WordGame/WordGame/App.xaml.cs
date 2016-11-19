@@ -13,5 +13,14 @@ namespace WordGame
     /// </summary>
     public partial class App : Application
     {
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            // Create the startup window
+            MainWindow wnd = new MainWindow();
+            //Do stuff here, to the window
+            wnd.Title = "Sibelcim";
+            // Show the window
+            wnd.Show();
+        }
     }
 }

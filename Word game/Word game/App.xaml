@@ -1,8 +1,8 @@
-﻿<Application x:Class="WordGame.App"
+﻿<Application x:Class="Word_game.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:WordGame"
-             Startup="Application_Startup">
+             xmlns:local="clr-namespace:Word_game"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
